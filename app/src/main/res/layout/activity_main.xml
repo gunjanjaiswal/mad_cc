@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:contentDescription="App Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Care Connect"
+            android:textSize="40sp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textSize="22sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="name@email.com"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#757575"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="22sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Enter password"
+            android:textColor="#000000"
+            android:textColorHint="#757575"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textPassword"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="LOG IN"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/createAccountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? \nTap here to Create one"
+            android:textSize="22sp"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    </LinearLayout>
+</ScrollView>
